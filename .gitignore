@@ -1,7 +1,7 @@
 .idea/*
 *.class
 target/*
-startup-service-system.iml
+*.iml
 /.war
 /.ear
 /.jar
