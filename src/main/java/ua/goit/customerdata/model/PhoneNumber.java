@@ -67,7 +67,7 @@ public class PhoneNumber implements Serializable {
         this.type = type;
     }
 
-    @OneToOne(mappedBy = "phoneNumber", cascade = CascadeType.ALL)
+    @OneToOne(mappedBy = "phoneNumber")
     public Customer getCustomer() {
         return customer;
     }
